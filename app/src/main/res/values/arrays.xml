@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="language">
+        <item>自动检测</item>
+        <item>英文 → 中文</item>
+        <item>中文 → 英文</item>
+        <item>中文 → 日语</item>
+        <item>中文 → 韩语</item>
+        <item>中文 → 法语</item>
+        <item>中文 → 俄语</item>
+    </string-array>
+    <style name="lan_spinner" parent="Widget.AppCompat.Light.DropDownItem.Spinner">
+        <item name="android:textSize">20sp</item>
+        <item name="paddingStart">0dp</item>
+        <item name="paddingEnd">0dp</item>
+        <item name="background">@drawable/edit_border</item>
+    </style>
+</resources>
